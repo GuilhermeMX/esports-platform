@@ -72,9 +72,15 @@ function App() {
       </div>
 
       <div className="pt-1 bg-nlw-gradient self-stretch mt-8 rounded-lg overflow-hidden">
-        <div className="bg-[#2A2634] px-8 py-6 rounded-lg">
-          <strong className="text-2xl text-white font-black block">Não encontrou o seu duo?</strong>
-          <span className="text-zinc-400">Publique um anúncio para encontrar novos players</span>
+        <div className="bg-[#2A2634] px-8 py-6 rounded-lg flex justify-between align-center">
+          <div>
+            <strong className="text-2xl text-white font-black block">Não encontrou o seu duo?</strong>
+            <span className="text-zinc-400">Publique um anúncio para encontrar novos players</span>
+          </div>
+
+          <button className="py-3 px-4 bg-violet-500 text-white rounded">
+            Publicar Anúncio!
+          </button>
         </div>
       </div>
     </div>
