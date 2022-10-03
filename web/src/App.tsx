@@ -1,3 +1,5 @@
+import { MagnifyingGlass } from "phosphor-react";
+
 import './styles/main.css';
 
 import logoImg from './assets/logo-nlw-esports.svg';
