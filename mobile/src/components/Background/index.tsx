@@ -11,7 +11,8 @@ interface Props {
 export function Background({ children }: Props) {
   return (
     <ImageBackground 
-    source={}
+    source={backgroundImg}
+    defaultSource={backgroundImg}
     style={styles.container}>
       {children}
     </ImageBackground>
